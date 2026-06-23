@@ -1,0 +1,20 @@
+{
+  "title": "ホーム",
+
+  "sections": [
+    {
+      "type": "banner",
+      "text": "ようこそ siva さん",
+      "icon": "home"
+    },
+
+    {
+      "type": "menu",
+      "children": [
+        { "type": "menu_item", "label": "車の状態", "icon": "directions_car", "action": "open_car_status" },
+        { "type": "menu_item", "label": "充電", "icon": "bolt", "action": "open_charge" },
+        { "type": "menu_item", "label": "設定", "icon": "settings", "action": "open_settings" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "充電",
+
+  "sections": [
+    { "type": "section_title", "text": "充電ステータス" },
+
+    { "type": "banner", "text": "充電ステータス", "icon": "bolt" },
+
+    { "type": "section_title", "text": "現在の状態" },
+
+    { "type": "status_item", "label": "バッテリー残量", "value": "82%", "icon": "battery_full" },
+    { "type": "detail_item", "label": "充電完了まで", "value": "1時間20分" },
+
+    { "type": "section_title", "text": "操作" },
+
+    {
+      "type": "menu",
+      "children": [
+        { "type": "menu_item", "label": "充電を開始", "icon": "play_arrow", "action": "start_charge" },
+        { "type": "menu_item", "label": "充電を停止", "icon": "stop", "action": "stop_charge" }
+      ]
+    }
+  ]
+}

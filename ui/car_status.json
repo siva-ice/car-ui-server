@@ -1,0 +1,17 @@
+{
+  "title": "車の状態",
+
+  "sections": [
+    { "type": "section_title", "text": "ステータス概要" },
+
+    { "type": "status_item", "label": "バッテリー", "value": "82%" },
+    { "type": "status_item", "label": "走行可能距離", "value": "310 km" },
+    { "type": "status_item", "label": "温度", "value": "22°C" },
+
+    { "type": "section_title", "text": "詳細情報" },
+
+    { "type": "detail_item", "label": "タイヤ空気圧", "value": "正常" },
+    { "type": "detail_item", "label": "オイル状態", "value": "良好" },
+    { "type": "detail_item", "label": "ブレーキ", "value": "正常" }
+  ]
+}
